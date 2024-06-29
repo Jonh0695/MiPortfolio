@@ -1,111 +1,53 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  padding-top: 70px
-}
-
-nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
-
-}
-
-.menu-item {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
-    display: inline-block;
-
-}
-
-.menu-item:hover {
-    background-color: #d2d2d2;
-    transition: all 0.4s ease-in-out;
+    font-family: Arial, sans-serif;
   }
-
-  header {
-    background-color: #333;
-    color: #fff;
+     
+  h1 {
     text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-
+    margin-top: 50px;
   }
-
-  section {
-    padding: 20px;
-    border: 5px solid #ddd;
-    margin-bottom: 20px;
-  }
-  #acerca-de-mi {
-text-align: justify;
-
-  }
-  #habilidades ul {
-    list-style: none;
-    padding: 0;
-
-  }
-  #habilidades ul li {
-    display: inline-block;
-    padding: 5px;
-    border: 2px solid #ddd;
-    margin-right: 10px;
-
-  }
-  #experiencia ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #experiencia ul li {
-    margin-bottom: 10px;
-  }
-#proyectos ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #proyectos ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  #proyectos ul li a:hover {
-    text-decoration: underline;
-  }
-  #sociales {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
-  }
-  
-  #sociales li {
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-  }
-  
-  .fa {
-    color: #333;
-    text-decoration: none;
-    margin-left: 0px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
     padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
   }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      border: 1px solid black;
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+      text-align: center;
+      margin-top: 20px;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
+  
+ 
